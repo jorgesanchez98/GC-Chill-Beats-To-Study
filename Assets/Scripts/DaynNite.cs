@@ -11,6 +11,7 @@ public class DaynNite : MonoBehaviour
     }
 
     // Update is called once per frame
+    // Cada update gira un decimo de grado en el eje X para simular el cambio de dìa y noche
     void Update()
     {
         Vector3 rotationToAdd = new Vector3(0.1f, 0, 0);
